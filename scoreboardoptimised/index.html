@@ -1,0 +1,52 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class="team">HOME</h1>
+                <h1 class="score-style" id="score-home">0</h1>
+                <div class="points-btn-spacing">
+                    <button 
+                        class="points-btn-style" 
+                        id="home-inc-1"
+                        value="1" 
+                        onclick="incPoints(this)">+1</button>
+                    <button 
+                        class="points-btn-style" 
+                        id="home-inc-2"
+                        value="2"
+                        onclick="incPoints(this)">+2</button>
+                    <button 
+                        class="points-btn-style" 
+                        id="home-inc-3"
+                        value="3"
+                        onclick="incPoints(this)">+3</button>
+                </div>
+            </div>
+            <div>
+                <h1 class="team">GUEST</h1>
+                <h1 class="score-style" id="score-guest">0</h1>
+                <div class="points-btn-spacing">
+                    <button 
+                        class="points-btn-style" 
+                        id="guest-inc-1"  
+                        value="1" 
+                        onclick="incPoints(this)">+1</button>
+                    <button 
+                        class="points-btn-style" 
+                        id="guest-inc-2"  
+                        value="2" 
+                        onclick="incPoints(this)">+2</button>
+                    <button 
+                        class="points-btn-style" 
+                        id="guest-inc-3"  
+                        value="3" 
+                        onclick="incPoints(this)">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
